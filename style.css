@@ -1,0 +1,27 @@
+.body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #ffd700; /* gold accent */
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ffc300;
+}
