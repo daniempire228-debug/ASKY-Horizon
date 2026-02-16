@@ -1,27 +1,80 @@
-.body {
-    background-color: #121212;
-    color: #ffffff;
+.navbar {
+    background-color: #1e1e1e;
+    color: #FFD700;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.header {
+.feature-card {
+    background-color: #121212;
+    color: #FFD700;
+    border: 1px solid #654321;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.form {
     background-color: #1e1e1e;
     padding: 20px;
-    text-align: center;
+    border-radius: 8px;
 }
 
 .button {
-    background-color: #ffd700; /* gold accent */
+    background-color: #FFD700;
     color: #121212;
-    border: none;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #ffc300;
+    background-color: #bfa500;
+}
+
+.wallet-display {
+    background-color: #121212;
+    padding: 10px;
+    color: #FFD700;
+}
+
+.airport-status-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.notification-feed {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.visa-info-card {
+    background-color: #121212;
+    color: #FFD700;
+    padding: 20px;
+    border: 1px solid #654321;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.monetization-section {
+    background-color: #1e1e1e;
+    color: #FFD700;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .feature-card, 
+    .visa-info-card, 
+    .wallet-display,
+    .notification-feed {
+        flex: 1 1 100%;
+    }
 }
