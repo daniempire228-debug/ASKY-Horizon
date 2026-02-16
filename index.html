@@ -3,11 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASKY Horizon Airline App</title>
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .navbar {
+            background-color: #1a1a1a;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar a {
+            color: gold;
+            text-decoration: none;
+            padding: 15px;
+        }
+        .dashboard {
+            padding: 20px;
+        }
+        .feature {
+            background-color: #1e1e1e;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>ASKY Horizon Airline App Dashboard</h1>
-    <p>Current Date and Time (UTC): 2026-02-16 00:24:50</p>
-    <p>Current User's Login: daniempire228-debug</p>
+    <div class="navbar">
+        <a href="#beacon-tracker">Beacon Tracker</a>
+        <a href="#pulse-notifications">Pulse Notifications</a>
+        <a href="#passport-pilot">Passport Pilot</a>
+        <a href="#claims-bot">Claims Bot</a>
+        <a href="#hub-health-map">Hub Health Map</a>
+        <a href="#smart-wallet">Smart Wallet</a>
+    </div>
+    <div class="dashboard">
+        <div class="feature" id="beacon-tracker">
+            <h2>Beacon Tracker</h2>
+            <p>A comprehensive feature to track and manage beacons efficiently.</p>
+        </div>
+        <div class="feature" id="pulse-notifications">
+            <h2>Pulse Notifications</h2>
+            <p>Real-time notifications to keep you informed.</p>
+        </div>
+        <div class="feature" id="passport-pilot">
+            <h2>Passport Pilot</h2>
+            <p>A tool to manage and pilot your digital passports.</p>
+        </div>
+        <div class="feature" id="claims-bot">
+            <h2>Claims Bot</h2>
+            <p>An automated system for managing claims.</p>
+        </div>
+        <div class="feature" id="hub-health-map">
+            <h2>Hub Health Map</h2>
+            <p>Visual representation of hub health and metrics.</p>
+        </div>
+        <div class="feature" id="smart-wallet">
+            <h2>Smart Wallet</h2>
+            <p>A secure wallet interface for managing digital assets.</p>
+        </div>
+    </div>
 </body>
 </html>
